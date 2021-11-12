@@ -1,6 +1,6 @@
 module.exports = {
 	/* The token of your Discord Bot */
-	token: "XXXXXXXXXXX",
+	token: "OTA4NDg2MDg1NDg1NjY2MzI1.YY2bmQ.HcZx3Tsy7C_Ac04s0W0ePSKYt00",
 	/* For the support server */
 	support: {
 		id: "XXXXXXXXXXX", // The ID of the support server
@@ -9,15 +9,15 @@ module.exports = {
 	/* Dashboard configuration */
 	dashboard: {
 		enabled: false, // whether the dashboard is enabled or not
-		secret: "XXXXXXXXXXX", // Your discord client secret
+		secret: "mPReiWZcPpsELRn0SRs4TiCl5EcJoBAT", // Your discord client secret
 		baseURL: "https://dashboard.atlanta-bot.fr", // The base URl of the dashboard
-		logs: "XXXXXXXXXXX", // The channel ID of logs
+		logs: "908486085485666325", // The channel ID of logs
 		port: 8080, // Dashboard port
-		expressSessionPassword: "XXXXXXXXXXX", // Express session password (it can be what you want)
+		expressSessionPassword: "holis", // Express session password (it can be what you want)
 		failureURL: "https://www.atlanta-bot.fr" // url on which users will be redirected if they click the cancel button (discord authentication)
 	},
 	mongoDB: "mongodb://localhost:27017/AtlantaBot", // The URl of the mongodb database
-	prefix: "*", // The default prefix for the bot
+	prefix: "<", // The default prefix for the bot
 	/* For the embeds (embeded messages) */
 	embed: {
 		color: "#0091fc", // The default color for the embeds
